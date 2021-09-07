@@ -4,6 +4,12 @@
 
 Deep Q-Learning agent learns how to navigate a world full of bananas.
 
+The agent in this project uses the following RL techniques:
+
+- Prioritized Experience Replay
+- Double DQN (DDQN)
+- Dueling DQN
+
 ## Overview
 
 To be successful in this environment, the RL agent must learn to collect yellow bananas (reward `+1`) while avoiding blue bananas (reward `-1`).
