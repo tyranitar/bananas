@@ -67,9 +67,9 @@ class Agent():
         state = torch.from_numpy(state).float().unsqueeze(0).to(device)
 
         with self.local_net.eval_no_grad():
-            action_vals = self.local_net.get_advantages(state)
+            advantages = self.local_net.get_advantages(state)
 
-        return action_vals.cpu().argmax().item()
+        return advantages.cpu().argmax().item()
 
     def step(self, state, action, reward, next_state, done):
         # Since the max priority will be 0 before any learning happens, let's
