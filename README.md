@@ -36,6 +36,8 @@ Follow the instructions [here](https://github.com/udacity/deep-reinforcement-lea
 
 The OpenAI Gym instructions can be skipped.
 
+In order to watch the agent play the game, you also need to download the environment by following the instructions [here](https://github.com/udacity/deep-reinforcement-learning/tree/dc65050c8f47b365560a30a112fb84f762005c6b/p1_navigation#getting-started).
+
 ## Notebook
 
 Once you've completed the setup, you can:
